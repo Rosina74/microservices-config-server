@@ -8,7 +8,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-      dialect: org.hibernat.dialect.MariaDBDialect
+      dialect: org.hibernate.dialect.MariaDBDialect
     show-sql: true
 server:
   port: 8082
