@@ -1,6 +1,6 @@
 spring:
   datasource:
-      url: jdbc:mysql://localhost:3306/studentdatabase?createDatabaseIfNotExist=true
+      url: jdbc:mariadb://studentdatabase:3306/students
       username: root
       password: rojina
       driver-class-name: org.mariadb.jdbc.Driver
